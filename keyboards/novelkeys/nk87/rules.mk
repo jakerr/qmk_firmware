@@ -17,6 +17,7 @@ RGBLIGHT_ENABLE = no        # Enable keyboard RGB underglow
 AUDIO_ENABLE = no           # Audio output
 
 CIE1931_CURVE = yes
+DEBOUNCE_TYPE = sym_eager_pk
 
 # project specific files
 SRC =	keyboards/wilba_tech/wt_main.c \

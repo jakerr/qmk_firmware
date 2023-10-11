@@ -73,3 +73,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // Backlight config starts after VIA's EEPROM usage,
 // dynamic keymaps start after this.
 #define VIA_EEPROM_CUSTOM_CONFIG_SIZE 32
+
+
+// Increase debounce to prevent key chatter (Our NK87 space key double reports about 5% of the time
+// with default  settings).
+#define DEBOUNCE 60
